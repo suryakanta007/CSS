@@ -1,0 +1,12 @@
+/*  #ff3368; #ecfdff; */
+.para{
+    color: brown;
+}
+#btn{
+    background-color: #4e18ca;
+    color: #72962f;
+}
+#btn:hover{
+background-color: black;
+color: #966118d1;
+}

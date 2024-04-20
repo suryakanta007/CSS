@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+     *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+     }
+     body{
+      height: 100vh;
+      background-color: #191825;
+
+      /* 5th way to center  */
+     display: flex;
+   
+
+
+      /* 4th way to center  */
+      /* display: grid;
+      align-items: center;
+      justify-content: center; */
+
+
+      /* 3rd way to cnter  */
+      /* display: grid;
+      place-items: center; */
+
+      /* 2nd way to center  */
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+
+
+      /* 1st way to make center */
+      /* position: relative; */
+
+     }
+     .child{
+      width: 300px;
+      aspect-ratio: 1;
+      background-color: blueviolet;
+      font-size: 20px;
+      text-transform: uppercase;
+      color: #fff;
+      /* text center */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+
+      /* 5th way to center  */
+      /* margin: auto; */
+
+
+      /* 1st way to center 
+        position: absolute;
+        left: 50%;
+        top:50%;
+      transform: translate(-50% ,-50% ); */
+     }
+
+
+      /* bg color for loader : background-color: #865dff; */
+    </style>
+  </head>
+  <body>
+    <div class="child">
+      center text
+    </div>
+  </body>
+</html>
